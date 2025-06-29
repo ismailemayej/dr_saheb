@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/context/ThemeContext";
 import BackToTopButton from "@/components/BackToTop";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <main className=" lg:container mx-auto min-h-screen bg-white text-black dark:bg-black dark:text-white">
             {children}
           </main>
+          <Footer />
         </ThemeProvider>
         <BackToTopButton />
       </body>

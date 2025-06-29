@@ -21,7 +21,7 @@ const ServicesSection = () => {
         আমাদের সেবা সমূহ
       </Heading>
 
-      <div className="px-4 bangla grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 shadow-2xl">
+      <div className="px-4 bangla grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {services.map((service) => (
           <div className="shadow-md rounded-xl p-4 hover:scale-105 transition-transform duration-300">
             <Link href="/book-appoinment">
